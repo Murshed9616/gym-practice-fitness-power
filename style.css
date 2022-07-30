@@ -84,6 +84,7 @@
     background-color: red;
     margin: 10px;
     font-size: 18px;
+    border-radius: 10px;
 }
 
 
@@ -123,4 +124,61 @@
 
 .gym-icon {
     width: 50px;
+}
+
+.about-conatiner {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+
+}
+
+.about-left {
+    width: 600px;
+    margin-top: 30px;
+}
+
+.about-right {
+    width: 600px;
+    margin-top: 50px;
+}
+
+.about-title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.about-paragrap {
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(221, 97, 138);
+    font-weight: bold;
+}
+
+.six-line {
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.workout-image {
+    margin: 20px;
+    display: flex;
+
+}
+
+.workout-image img {
+    width: 351px;
+    height: 550px;
+    transform: skewY(-15deg);
+
+}
+
+.btn-test {
+    text-decoration: none;
+    color: white;
+
 }
