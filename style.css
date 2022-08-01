@@ -214,10 +214,11 @@
 }
 
 .service-container {
-    margin-top: 0px;
+    margin-top: 80px;
     display: flex;
     justify-content: space-evenly;
-    margin: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
 
 }
 
@@ -270,24 +271,56 @@
     left: 248px;
 }
 
-.fb-tube {
-    display: flex;
-    justify-content: space-evenly;
-    margin-right: 700px;
-    margin-left: 700px;
-    margin-top: 30px;
+/* start footer area*/
+.footer-container {
+    padding: 100px;
+    line-height: 1.7;
 }
 
-.line {
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-evenly;
-    margin-right: 650px;
-    margin-left: 650px;
-    margin-bottom: 70px;
+footer {
+    float: left;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 0px;
 }
 
-.my-name {
+.footer h5 {
+    margin-top: 50px;
+    word-spacing: 25px;
+    font-size: 14px;
     text-align: center;
-    color: white;
+    color: #8a8d91;
+
 }
+
+.footer h5 a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Alegreya SC', serif;
+}
+
+.footer h5 a:hover {
+    color: red;
+    text-decoration: underline;
+
+}
+
+.footer p {
+    font-size: 16px;
+    text-align: center;
+    color: black;
+}
+
+.footer p a {
+    color: red;
+    text-decoration: none;
+}
+
+.footer p a:hover {
+    color: red;
+    text-decoration: underline;
+
+}
+
+/* End footer area*/
