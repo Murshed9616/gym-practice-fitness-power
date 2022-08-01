@@ -269,3 +269,25 @@
     position: absolute;
     left: 248px;
 }
+
+.fb-tube {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 700px;
+    margin-left: 700px;
+    margin-top: 30px;
+}
+
+.line {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 650px;
+    margin-left: 650px;
+    margin-bottom: 70px;
+}
+
+.my-name {
+    text-align: center;
+    color: white;
+}
